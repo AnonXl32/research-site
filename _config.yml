@@ -66,6 +66,8 @@ exclude:
   - vendor
   - node_modules
   - private
+  - output
+  - tmp
   - .cache
   - .github
   - .gitignore

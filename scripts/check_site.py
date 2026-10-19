@@ -115,7 +115,7 @@ if len(rendered_examples) != 38:
 for index, (code, original) in enumerate(zip(rendered_examples, integrity['code_blocks']), 1):
     if hashlib.sha256((code.rstrip('\n') + '\n').encode()).hexdigest() != original['sha256']:
         errors.append(f'Rendered VMProtect example {index} changed during Markdown processing')
-for forbidden in ['.git', '.cache', '.github', 'scripts', 'Gemfile', 'Gemfile.lock', 'README.md', 'DEPLOYMENT.md', '_drafts', 'private', '.env']:
+for forbidden in ['.git', '.cache', '.github', 'scripts', 'Gemfile', 'Gemfile.lock', 'README.md', 'DEPLOYMENT.md', '_drafts', 'private', 'output', 'tmp', '.env']:
     if (ROOT / forbidden).exists():
         errors.append(f'Non-public file deployed: {forbidden}')
 for path in ROOT.rglob('*'):
