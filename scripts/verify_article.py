@@ -21,6 +21,9 @@ for stale in ['What’s next?', 'What\ufffds next?', 'SITECODEBLOCK', 'SITEHEADI
 hypervisor = (ROOT / '_research/rust-based-hypervisors.md').read_text(encoding='utf-8')
 hypervisor_manifest = json.loads((ROOT / 'scripts/hypervisor-integrity.json').read_text(encoding='utf-8'))
 hypervisor_body = hypervisor.split('## Abstract', 1)[1]
+for original, repaired in hypervisor_manifest.get('reference_repairs', {}).items():
+    assert repaired in hypervisor_body, f'Missing repaired reference: {repaired}'
+    hypervisor_body = hypervisor_body.replace(repaired, original)
 assert hashlib.sha256(('## Abstract' + hypervisor_body).encode()).hexdigest() == hypervisor_manifest['body_sha256'], 'Supplied hypervisor article body changed'
 hypervisor_blocks = re.findall(r'^```[^\n]*\n(.*?)^```\s*$', hypervisor, re.M | re.S)
 assert [hashlib.sha256(b.encode()).hexdigest() for b in hypervisor_blocks] == hypervisor_manifest['code_sha256'], 'Supplied hypervisor examples changed'

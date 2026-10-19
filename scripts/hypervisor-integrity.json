@@ -8,5 +8,9 @@
     "78a64c57149d2c37e4aac905da61a324cc6f45c014f516d25d389e93c227a310",
     "3b9aacee191af5fcf1b2e321ebf903e95624a92c4cee11880e198576527115c1",
     "75fb4fae4bd79b432432975529e3d6c08e0beff9dacee0e36c2d5e04c5959e66"
-  ]
+  ],
+  "reference_repairs": {
+    "https://github.com/satoshi-tanda/barevisor": "https://github.com/tandasat/barevisor",
+    "https://github.com/wbenny/vmi-rs": "https://github.com/vmi-rs/vmi"
+  }
 }

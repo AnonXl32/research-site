@@ -263,8 +263,8 @@ Early versions allocated guest memory and injected helper code. Removed due to:
 
 ### Related Projects
 
-- **[barevisor](https://github.com/satoshi-tanda/barevisor)** - Minimal hypervisor template (Satoshi Tanda)
-- **[vmi-rs](https://github.com/wbenny/vmi-rs)** - Modular Virtual Machine Introspection library (Petr Beneš)
+- **[barevisor](https://github.com/tandasat/barevisor)** - Minimal hypervisor template (Satoshi Tanda)
+- **[vmi-rs](https://github.com/vmi-rs/vmi)** - Modular Virtual Machine Introspection library (Petr Beneš)
 - **[amd_hypervisor](https://github.com/not-matthias/amd_hypervisor)** - AMD SVM-based hypervisor (not-matthias)
 
 ---
