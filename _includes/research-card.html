@@ -1,0 +1,4 @@
+<article class="research-card">
+  <div class="card-meta"><time datetime="{{ include.item.date | date: '%Y-%m-%d' }}">{{ include.item.date | date: '%d %b %Y' }}</time><span>{{ include.item.category | default: 'Research' }}</span></div>
+  <div><h3><a href="{{ include.item.url | relative_url }}">{{ include.item.title | escape }}<span class="card-arrow" aria-hidden="true">↗</span></a></h3><p>{{ include.item.description | escape }}</p><ul class="tags" aria-label="Topics">{% for tag in include.item.tags %}<li>{{ tag | escape }}</li>{% endfor %}</ul></div>
+</article>

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<article class="document-article prose">
+  <a class="back-link" href="{{ '/disclosures/' | relative_url }}">← All disclosures</a>
+  <header class="page-header"><p class="eyebrow">Vulnerability disclosure</p><h1>{{ page.title | escape }}</h1><p>{{ page.description | escape }}</p><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %-d, %Y' }}</time></header>
+  <dl class="fact-grid">{% if page.identifier %}<div><dt>Identifier</dt><dd>{{ page.identifier | escape }}</dd></div>{% endif %}{% if page.severity %}<div><dt>Severity</dt><dd>{{ page.severity | escape }}</dd></div>{% endif %}{% if page.status %}<div><dt>Status</dt><dd>{{ page.status | escape }}</dd></div>{% endif %}{% if page.affected_versions %}<div><dt>Affected versions</dt><dd>{{ page.affected_versions | escape }}</dd></div>{% endif %}{% if page.fixed_versions %}<div><dt>Fixed versions</dt><dd>{{ page.fixed_versions | escape }}</dd></div>{% endif %}</dl>
+  {{ content }}
+</article>

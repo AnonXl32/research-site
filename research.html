@@ -1,0 +1,9 @@
+---
+title: Research
+eyebrow: Notes from the workbench
+description: Long-form explorations of reverse engineering, software internals, and deobfuscation.
+permalink: /research/
+---
+<div class="section-caption"><span>Published articles</span><span>{{ site.research.size | prepend: '0' }}</span></div>
+{% assign articles = site.research | sort: 'date' | reverse %}{% for item in articles %}{% include research-card.html item=item %}{% endfor %}
+<p class="index-footnote">Follow new publications via <a href="{{ '/feed.xml' | relative_url }}">RSS</a>.</p>

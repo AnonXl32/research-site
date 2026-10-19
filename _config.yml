@@ -1,0 +1,78 @@
+title: Eitan Elbaz
+description: Security research, reverse engineering, and technical publications by Eitan Elbaz.
+url: https://research.elbaz.ch
+baseurl: ""
+lang: en
+timezone: Europe/Zurich
+author:
+  name: Eitan Elbaz
+github_url: https://github.com/AnonXl32
+repository: AnonXl32/research-site
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  toc_levels: "2..3"
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+  disclosures:
+    output: true
+    permalink: /disclosures/:name/
+  documents:
+    output: true
+    permalink: /documents/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/images/social-card.png
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: article
+      render_with_liquid: false
+  - scope:
+      path: ""
+      type: disclosures
+    values:
+      layout: disclosure
+  - scope:
+      path: ""
+      type: documents
+    values:
+      layout: document
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+feed:
+  collections:
+    research:
+      path: /feed.xml
+    disclosures:
+      path: /disclosures/feed.xml
+strict_front_matter: true
+exclude:
+  - README.md
+  - DEPLOYMENT.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+  - node_modules
+  - private
+  - .cache
+  - .github
+  - .gitignore
+  - .gitattributes
+  - .bundle
+  - .ruby-version
+  - .git
+  - .agents
+  - .codex
+  - .aws

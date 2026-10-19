@@ -1,0 +1,8 @@
+---
+title: Documents
+eyebrow: Selected work / Public records
+description: Selected public designation letters and redacted assessment summaries.
+permalink: /documents/
+---
+{% assign document_collection = site.collections | where: 'label', 'documents' | first %}{% assign records = document_collection.docs | sort: 'date' | reverse %}
+{% if records.size > 0 %}{% for item in records %}<article class="listing-item"><p class="eyebrow">{{ item.document_type | escape }}</p><h2><a href="{{ item.url | relative_url }}">{{ item.title | escape }} ↗</a></h2><p>{{ item.description | escape }}</p><p class="listing-meta">{{ item.date | date: '%d %b %Y' }}</p></article>{% endfor %}{% else %}<section class="empty-state"><span class="empty-icon" aria-hidden="true">{ }</span><p class="eyebrow">Selected documents</p><h2>No public documents yet.</h2><p>Designation letters and assessment summaries selected for publication will appear here, with context and downloads where available.</p><a class="text-link" href="{{ '/about/' | relative_url }}">About this work <span aria-hidden="true">↗</span></a></section>{% endif %}

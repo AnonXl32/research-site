@@ -1,0 +1,7 @@
+---
+title: Disclosures
+eyebrow: Findings / Remediation
+description: Published vulnerability findings, technical impact, and coordinated disclosure timelines.
+permalink: /disclosures/
+---
+{% if site.disclosures.size > 0 %}{% assign findings = site.disclosures | sort: 'date' | reverse %}{% for item in findings %}<article class="listing-item"><p class="eyebrow">{{ item.identifier | escape }}{% if item.severity %} / {{ item.severity | escape }}{% endif %}</p><h2><a href="{{ item.url | relative_url }}">{{ item.title | escape }} ↗</a></h2><p>{{ item.description | escape }}</p><p class="listing-meta">{{ item.date | date: '%d %b %Y' }} · {{ item.status | escape }}</p></article>{% endfor %}{% else %}<section class="empty-state"><span class="empty-icon" aria-hidden="true">[ ]</span><p class="eyebrow">Publication archive</p><h2>No disclosures published yet.</h2><p>Technical findings and their remediation timelines will appear here when they are ready for public release.</p><a class="text-link" href="{{ '/research/' | relative_url }}">Read the research <span aria-hidden="true">↗</span></a></section>{% endif %}

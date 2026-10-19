@@ -1,0 +1,12 @@
+{
+  "title": "Rust-Based Hypervisors for Memory Introspection and Reverse Engineering",
+  "body_sha256": "1d51ddc57fa0b4fac86b484f82a69298bb2a4a0741352dff833be4bb0a6c8b94",
+  "code_sha256": [
+    "09f40decc262494d163f42795f4e4a7524ebbccd0a488cd352be7a09f06ffdb9",
+    "59a3fa8feeac765ecbd5b2cbb7e4854e4370a5d47b80e049c6caeb2bc2d22489",
+    "f0efaaead20a1351104a4ff4f1aa001c314afcd032d9c910f6f90fe4d325c81a",
+    "78a64c57149d2c37e4aac905da61a324cc6f45c014f516d25d389e93c227a310",
+    "3b9aacee191af5fcf1b2e321ebf903e95624a92c4cee11880e198576527115c1",
+    "75fb4fae4bd79b432432975529e3d6c08e0beff9dacee0e36c2d5e04c5959e66"
+  ]
+}

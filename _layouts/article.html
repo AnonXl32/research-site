@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="research-article">
+  <header class="article-header">
+    <a class="back-link" href="{{ '/research/' | relative_url }}">← All research</a>
+    <div class="article-meta"><span>Research / {{ page.category | default: 'Reverse engineering' }}</span><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %-d, %Y' }}</time></div>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="article-deck">{{ page.description | escape }}</p>
+    <div class="byline"><span class="author-monogram" aria-hidden="true">EE</span><span><strong>{{ site.author.name }}</strong><span class="byline-detail">{{ site.author.alias }}{% if page.historical %} · Historical research{% endif %}</span></span></div>
+    <ul class="tags" aria-label="Topics">{% for tag in page.tags %}<li>{{ tag | escape }}</li>{% endfor %}</ul>
+  </header>
+  {% if page.historical %}<aside class="notice"><strong>A note on this edition</strong><p>This article merges the three-part series originally published on Secret Club on September 8, 2021. It preserves the original research and code. LLVM APIs, optimization behavior, and external tools described here reflect that period.</p><p class="source-links">Original series: {% for source in page.original_sources %}<a href="{{ source.url }}">{{ source.title }}</a>{% unless forloop.last %}<span aria-hidden="true"> / </span>{% endunless %}{% endfor %}</p></aside>{% endif %}
+  <div class="article-body prose">{{ content }}</div>
+  <div class="article-end"><span class="eyebrow">End of article</span><p>Questions or observations about this research?</p><a class="text-link" href="{{ site.github_url }}">Find me on GitHub ↗</a></div>
+</article>

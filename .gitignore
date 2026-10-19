@@ -1,0 +1,16 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/
+.cache/
+node_modules/
+.env
+.env.*
+*.log
+*.gem
+*.zip
+*.7z
+_drafts/
+private/

@@ -1,0 +1,255 @@
+{
+  "source": "Author-supplied three-part article, cross-checked against original publications",
+  "sources": [
+    "https://secret.club/2021/09/08/vmprotect-llvm-lifting-1.html",
+    "https://secret.club/2021/09/08/vmprotect-llvm-lifting-2.html",
+    "https://secret.club/2021/09/08/vmprotect-llvm-lifting-3.html"
+  ],
+  "code_blocks": [
+    {
+      "part": 1,
+      "language": "cpp",
+      "sha256": "02b787823467ffd1b8ad1d0ebbcf7a8be0226cf21f78702064e346247a7c63de",
+      "lines": 74
+    },
+    {
+      "part": 1,
+      "language": "llvm",
+      "sha256": "0f1b5059408def0692b4651690a4c001ca0421a39dc08b609abd99a2c42608f5",
+      "lines": 26
+    },
+    {
+      "part": 1,
+      "language": "cpp",
+      "sha256": "116333e83097ba9ee8b2d6b5d3224b445b0b315f006707618df4067ca7c6182d",
+      "lines": 6
+    },
+    {
+      "part": 1,
+      "language": "cpp",
+      "sha256": "04029be8e11f8900200c9c70e8f8ea380d72154dd7da4453afc586aab3287c72",
+      "lines": 12
+    },
+    {
+      "part": 1,
+      "language": "cpp",
+      "sha256": "f2e3fa19243fcad9bcfb4d4398edba2559d39df357f7e4498021c27f4e5952eb",
+      "lines": 93
+    },
+    {
+      "part": 1,
+      "language": "cpp",
+      "sha256": "d4fb6578b0fbefcf1e87a83e3ce3c8315e794ef4e5421a5465adc3a986a41bfd",
+      "lines": 45
+    },
+    {
+      "part": 1,
+      "language": "cpp",
+      "sha256": "7da2b3a46cded0f1c47946ac57a25d8cd60838e1156ff2608b35e9b3626c942e",
+      "lines": 74
+    },
+    {
+      "part": 1,
+      "language": "cpp",
+      "sha256": "b6234935ac267714e40cfb24421881fe6415cd4089a37a79513b52c8d7bf488b",
+      "lines": 46
+    },
+    {
+      "part": 1,
+      "language": "llvm",
+      "sha256": "e031911b393dc30c1555742d76ba0330c3b40398cda183f12350a17ad925861c",
+      "lines": 4
+    },
+    {
+      "part": 1,
+      "language": "cpp",
+      "sha256": "6a1d71a8dc4088cf9ba4ade8bb47137b2695c815f13863e26f085d9e5fcc61f3",
+      "lines": 25
+    },
+    {
+      "part": 1,
+      "language": "llvm",
+      "sha256": "edc40bc84ced71f2d5ed97c25d762e71b100ab439bc9a40d8a8bfd0102794831",
+      "lines": 116
+    },
+    {
+      "part": 1,
+      "language": "llvm",
+      "sha256": "98a8591fcfbc55e16523bb5a6ceca844d91563cd38816b292d3f3d1ea5dc3b9a",
+      "lines": 58
+    },
+    {
+      "part": 1,
+      "language": "cpp",
+      "sha256": "68739ee4523cc59d0820dd343de7330a41c920764dc975b3a6d87f920ae16466",
+      "lines": 27
+    },
+    {
+      "part": 1,
+      "language": "llvm",
+      "sha256": "cda7056de1441c5879b0d5d2d7f4283e7a5699b7f7011c5c728d8ff9343d354b",
+      "lines": 8
+    },
+    {
+      "part": 2,
+      "language": "cpp",
+      "sha256": "7ec15344117dac16327358c7f359d81f82576d4a8d68434d612c163fe35637f7",
+      "lines": 27
+    },
+    {
+      "part": 2,
+      "language": "llvm",
+      "sha256": "e5eedb3079d9c2ba2055ba322bdf35905dee69e6999751c29bc7b9548dc8aa34",
+      "lines": 8
+    },
+    {
+      "part": 2,
+      "language": "nasm",
+      "sha256": "1df2dcdc80f5551c39486154037d41ec6598c662582a0f3412069a0316bb911d",
+      "lines": 7
+    },
+    {
+      "part": 2,
+      "language": "llvm",
+      "sha256": "865dbdcf35cfa09eb2d18f538b3971e1b911a934dd4a46d99dcb403449e0df0a",
+      "lines": 4
+    },
+    {
+      "part": 2,
+      "language": "llvm",
+      "sha256": "1ab7d3ed0866d7bd6702b0c8f9bb0d40f16dba4f70ec7b052026641d3e9d1a2f",
+      "lines": 15
+    },
+    {
+      "part": 2,
+      "language": "llvm",
+      "sha256": "929acc88925b7513083d30925b16f19851fdc6749d94080b7c56732a8fafcef0",
+      "lines": 14
+    },
+    {
+      "part": 2,
+      "language": "llvm",
+      "sha256": "6a5230accb0fb078cff8e4e59f528ed0d93b44d20065037cd04343f4e3b26ded",
+      "lines": 5
+    },
+    {
+      "part": 2,
+      "language": "cpp",
+      "sha256": "5ba3cc90a40f2986210b57793ff9c1e5a65f88add15867b82f2802dcc4e96404",
+      "lines": 55
+    },
+    {
+      "part": 3,
+      "language": "nasm",
+      "sha256": "25005b069dedfffd5500a9d424f3d00e601944064b8f30508e0836c543ca83b8",
+      "lines": 5
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "04dbf2b222b936f7c7fe2e32d2b48bb611c271096f2cee29a6be68c2f08c92ce",
+      "lines": 7
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "e1b403e82190cc8572427f4e4ce29e0fdf77c3d65ce32a1028fd384119c55b96",
+      "lines": 12
+    },
+    {
+      "part": 3,
+      "language": "cpp",
+      "sha256": "f2980cafd96b9694f9766f00426f89d0d876a0865843f431b5ae8f140b0d741c",
+      "lines": 10
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "a710efd65f5e70ea9acbb457b46e4984a0fe2882dde5834a7dedba737a8dd165",
+      "lines": 21
+    },
+    {
+      "part": 3,
+      "language": "nasm",
+      "sha256": "7666ef243ef27050b622953055d007256e4798dcddf6520f70b00d35c3617c7d",
+      "lines": 10
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "392554feed596f8ee37ce9c31d2f0d193325a8fec53af1e9f6f53a6a6a704dbc",
+      "lines": 77
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "1b003514e08d5f84f892bc1cb8710abe95bd83ce144a2f79e84467d6bcfb506b",
+      "lines": 6
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "5d6f54a4d7958ee258afe86265146d0a266c3cc32e186f5866bdc8aed840eb24",
+      "lines": 14
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "608df5fccc9ccd46fffa78d5fe275f8a29b9e453df94511e82fe1f827f719b0e",
+      "lines": 131
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "a68cd61105e0f74525bf1900bf5c7382e38fa6828585969352983c88f108d184",
+      "lines": 83
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "8851d914f165da84049c7449269f0665380a0ac9f9151970a65b5be43f56bc52",
+      "lines": 23
+    },
+    {
+      "part": 3,
+      "language": "cpp",
+      "sha256": "715a929f4e5c2ce66dd1a9053799103d33b8081a7a7a251e16a0278fb5beb547",
+      "lines": 6
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "b53c772329588687e65b050a008a62adb1612a19e4359f6acf9cacd3604c0c3f",
+      "lines": 24
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "7518912fad22bfae6f3e5d88fc5bd1381d8b9550c47289323c0cf72dae10ace8",
+      "lines": 11
+    },
+    {
+      "part": 3,
+      "language": "llvm",
+      "sha256": "de1bb9a2dbab817ff62c1ff39e463454a311566ac05fe7ee785368070f237f80",
+      "lines": 21
+    }
+  ],
+  "images": [
+    {
+      "source": "https://secret.club/assets/vmp2llvm/diagram2.svg",
+      "local": "/assets/images/vmprotect/diagram2.svg",
+      "alt": "Lifting pipeline"
+    },
+    {
+      "source": "https://secret.club/assets/vmp2llvm/diagram1.svg",
+      "local": "/assets/images/vmprotect/diagram1.svg",
+      "alt": "Motivating example 1"
+    },
+    {
+      "source": "https://secret.club/assets/vmp2llvm/diagram0.svg",
+      "local": "/assets/images/vmprotect/diagram0.svg",
+      "alt": "Motivating example 2"
+    }
+  ]
+}

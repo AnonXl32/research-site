@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<article class="document-article prose">
+  <a class="back-link" href="{{ '/documents/' | relative_url }}">← All documents</a>
+  <header class="page-header"><p class="eyebrow">{{ page.document_type | escape }}</p><h1>{{ page.title | escape }}</h1><p>{{ page.description | escape }}</p><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %-d, %Y' }}</time></header>
+  {{ content }}
+  {% if page.download %}<p><a class="button" href="{{ page.download | relative_url }}" download>Download {{ page.download_label | default: 'document' | escape }} ↓</a></p>{% endif %}
+</article>
